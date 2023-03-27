@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+header,footer {
+    width: 100%;
+}
+header, nav, main, footer, aside {
+    display: block;
+}
+
+h2 {
+    margin-bottom: 24px;
+}
+#logo {
+    background-image: url("../images/icon.png");
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    display: block;
+    padding-left: 85px;
+    padding-bottom: 30px;
+    color: #3E3F43;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+main {
+    background-color: #F9BDBD;
+    height: 555px;
+
+}
+.title {
+    font-size: 50px;
+    margin-left: 700px;
+    padding-top: 150px;
+}
+.secondary {
+    position:relative;
+    font-size: 20px;
+    margin-left: 700px;
+    line-height: 40px;
+}
+.me {
+    position:absolute;
+    height: 400px;
+    left: 150px;
+    border-radius: 50px;
+    width: 330px;
+}
+.rectangle {
+    position: absolute;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    left: 40px;
+    top: 200px;
+    background: #F7DEA6;
+}
+.about {
+    position: relative;
+    top: 300px;
+    margin-left: 35px;
+    padding-bottom: 83px;
+}
+.about-text {
+    width: 710px;
+    line-height: 27px;
+    margin-top: 10px;
+    padding-bottom: 83px;
+}
+.exercise-square1 {
+    width: 200px;
+    height: 264px;
+    background:#FDEDE5;
+    border-radius: 25px;
+    margin-right: 24px;
+    display: inline-block;
+}
+.exercise-square2 {
+    width: 200px;
+    height: 264px;
+    background:#EBF1FF;
+    border-radius: 25px;
+    margin-right: 24px;
+    display: inline-block;
+}
+.exercise-square3 {
+    width: 200px;
+    height: 264px;
+    background:#EBFFEC;
+    border-radius: 25px;
+    margin-right: 24px;
+    display: inline-block;
+}
+.exercise-square4 {
+    width: 200px;
+    height: 264px;
+    background:#FFEBFC;
+    border-radius: 25px;
+    margin-right: 24px;
+    display: inline-block;
+}
+.exercise-square5 {
+    width: 200px;
+    height: 264px;
+    background:#FFFEEB;
+    border-radius: 25px;
+    margin-right: 24px;
+    display: inline-block;
+}
+.exercise-num {
+    position: relative;
+    top: 128px;
+    left: 24px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.exercise-button {
+    position: relative;
+    top:100px;
+    left: 24px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.4s, opacity 0.4s;
+}
+.exercise-button:hover {
+    background-color: black;
+    color: white;
+}
+.exercise-button:active {
+    opacity: 0.4;
+}
+.exercise-image {
+    position: relative;
+    right: 90px;
+    width: 75px;
+}
+.details {
+    position: relative;
+    top: 40px;
+
+}
+.det-list {
+    position: relative;
+    top: 25px;
+    left: 40px;
+    line-height: 25px;
+}
+
+.hobbie-square {
+    width: 280px;
+    height: 310px;
+    background:#EBF1FF;
+    border-radius: 25px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.hobbie-num {
+    position: relative;
+    top: 270px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hobbie-image {
+    position: relative;
+    left: 40px;
+    width: 200px;
+    height: 220px;
+}
+
+footer {
+    position: static;
+    width: 100%;
+    height: 230px;
+    background-color: #cdcfd7;
+    margin-top: 90%;
+}
+
+.follow {
+    position: relative;
+    top: 32px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+    color: #3E3F43;
+    margin-bottom: 20px;
+}
+.social {
+    position: relative;
+    top: 32px;
+    margin-left: 40px;
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+    color: rgb(123, 121, 121);
+}
